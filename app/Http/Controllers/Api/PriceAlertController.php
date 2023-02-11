@@ -16,5 +16,7 @@ class PriceAlertController extends Controller
         $alert->email = $request->email;
         $alert->limit = $request->limit;
         $alert->save();
+
+        return response()->json(['alert' => $alert], Response::HTTP_CREATED);
     }
 }

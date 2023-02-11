@@ -72,7 +72,7 @@ The api can now be accessed at
 
     http://localhost:8000/api
 
-You can use the `collection.json` file to import the requests/tests to Postman.
+You can use the `cointracker.postman_collection.json` file to import the requests/tests to Postman.
 
 # PHP Coding Standard PSR12
 
